@@ -21,13 +21,13 @@ postRouter.post("/add",async(req,res)=>{
 
 })
 
-// noteRouter.patch("/update/:noteId",(req,res)=>{
+postRouter.patch("/update/:noteId",(req,res)=>{
     
-// })
+})
 
-// noteRouter.delete("/delete/:noteId",(req,res)=>{
+postRouter.delete("/delete/:noteId",(req,res)=>{
     
-// })
+})
 
 module.exports={
     postRouter
